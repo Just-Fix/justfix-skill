@@ -8,6 +8,35 @@ Quote UK trades jobs from any AI agent. Get a price breakdown and a tappable boo
 
 ---
 
+## See it in action
+
+### On OpenClaw + Telegram
+
+Ask Squid (or any OpenClaw agent) for a quote in plain English. The skill maps the request to the right JustFix service code, calls the MCP, and replies with a clean quote card and a tappable booking URL.
+
+![JustFix quote in OpenClaw Telegram](assets/screenshots/openclaw-telegram-quote.jpg)
+
+### In ChatGPT (via the JustFix app)
+
+The same underlying MCP server powers JustFix's official ChatGPT app. The skill in this repo gives you the equivalent experience in any other agent, with a tappable booking link instead of the ChatGPT rich card.
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/chatgpt-app-1.jpg" alt="ChatGPT JustFix step 1" /></td>
+    <td><img src="assets/screenshots/chatgpt-app-2.jpg" alt="ChatGPT JustFix step 2" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/chatgpt-app-3.jpg" alt="ChatGPT JustFix step 3" /></td>
+    <td><img src="assets/screenshots/chatgpt-app-4.jpg" alt="ChatGPT JustFix step 4" /></td>
+  </tr>
+</table>
+
+### In Claude Code, Cursor, Codex CLI or Gemini CLI
+
+_Screenshot coming soon – install guide in [install/](install/) covers all four._
+
+---
+
 ## What is this?
 
 A portable AI skill that plugs into [JustFix's public MCP server](https://estimator-mcp.justfix.app/mcp) and lets your AI agent quote real trades jobs in real time. Built for OpenClaw, Hermes, Claude Code, Cursor, Codex CLI, Gemini CLI, and any other harness that supports AgentSkills or the Model Context Protocol.
