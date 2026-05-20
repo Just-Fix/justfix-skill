@@ -18,7 +18,7 @@ Quote a plumber, electrician, locksmith or 10 other trades. Tap-to-book.
 
 ## Author
 
-Squid – maintained on behalf of JustFix
+Adam J. Graham – maintained on behalf of JustFix
 
 ## License
 
@@ -26,7 +26,7 @@ MIT
 
 ## Source
 
-https://github.com/squid-ea/justfix-skill
+https://github.com/Just-Fix/justfix-skill
 
 ## Long description
 
