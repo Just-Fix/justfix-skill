@@ -29,7 +29,7 @@ You should see `justfix-estimator` listed with three tools.
 ```bash
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
-git clone https://github.com/squid-ea/justfix-skill.git justfix
+git clone https://github.com/Just-Fix/justfix-skill.git justfix
 ```
 
 Claude Code picks up skills from `~/.claude/skills/` automatically.
