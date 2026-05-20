@@ -8,7 +8,7 @@ metadata:
   requires_auth: false
   region: UK
   license: MIT
-  repo: https://github.com/squid-ea/justfix-skill
+  repo: https://github.com/Just-Fix/justfix-skill
 ---
 
 # JustFix Estimator Skill
@@ -212,8 +212,8 @@ All harnesses follow the same pattern: register the MCP endpoint, then put this 
 
 ## Support
 
-- Bugs / feature requests: https://github.com/squid-ea/justfix-skill/issues
-- JustFix MCP server bugs (the underlying API): contact JustFix at https://justfix.app/contact
+- Bugs / feature requests: https://github.com/Just-Fix/justfix-skill/issues
+- JustFix MCP server bugs (the underlying API): contact JustFix at https://justfix.app/support-policy
 
 ## License
 
