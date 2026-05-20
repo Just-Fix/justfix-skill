@@ -34,7 +34,7 @@ The same underlying MCP server powers JustFix's official ChatGPT app. The skill 
 ### In Claude Code, Cursor, Codex CLI or Gemini CLI
 
 _install guide in [install/](install/) covers all four._
-<table><tr><td><img src="assets/screenshots/dannydaley — ✳ Estimate sink leak repair cost — caffeinate ◂ claude — 175×56 2026-05-20 at 12.31.40 pm.jpg" alt="Claude CLI" /></td></tr></table>
+<table><tr><td><img src="assets/screenshots/claude_cli.jpg" alt="Claude CLI" /></td></tr></table>
 
 ---
 
