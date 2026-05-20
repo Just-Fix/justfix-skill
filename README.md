@@ -12,7 +12,7 @@ Quote UK trades jobs from any AI agent. Get a price breakdown and a tappable boo
 
 ### On OpenClaw + Telegram
 
-Ask Squid (or any OpenClaw agent) for a quote in plain English. The skill maps the request to the right JustFix service code, calls the MCP, and replies with a clean quote card and a tappable booking URL.
+Ask any OpenClaw agent for a quote in plain English. The skill maps the request to the right JustFix service code, calls the MCP, and replies with a clean quote card and a tappable booking URL.
 
 ![JustFix quote in OpenClaw Telegram](assets/screenshots/openclaw-telegram-quote.jpg)
 
