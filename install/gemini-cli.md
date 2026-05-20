@@ -32,7 +32,7 @@ Gemini CLI doesn't have a native skills folder, but you can include the SKILL.md
 ```bash
 mkdir -p ~/.config/gemini-cli/instructions
 cd ~/.config/gemini-cli/instructions
-git clone https://github.com/squid-ea/justfix-skill.git justfix
+git clone https://github.com/Just-Fix/justfix-skill.git justfix
 ```
 
 Then reference it in `~/.config/gemini-cli/config.json`:
