@@ -6,7 +6,7 @@
 
 ```bash
 cd ~/.openclaw/workspace/skills
-git clone https://github.com/squid-ea/justfix-skill.git justfix
+git clone https://github.com/Just-Fix/justfix-skill.git justfix
 ```
 
 OpenClaw auto-discovers skills in `~/.openclaw/workspace/skills/` and reads `SKILL.md` from each subdirectory. Restart your OpenClaw agent or send any message to pick up the new skill.
