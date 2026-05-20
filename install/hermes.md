@@ -6,7 +6,7 @@
 
 ```bash
 cd ~/.hermes/skills
-git clone https://github.com/squid-ea/justfix-skill.git justfix
+git clone https://github.com/Just-Fix/justfix-skill.git justfix
 ```
 
 Hermes discovers skills under `~/.hermes/skills/`. Restart Hermes or send a fresh message to pick up the new skill.
