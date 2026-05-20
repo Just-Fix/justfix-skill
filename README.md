@@ -22,7 +22,7 @@ The same underlying MCP server powers JustFix's official ChatGPT app. The skill 
 
 <table>
   <tr>
-    <td><img src="assets/screenshots/chatgpt-app-10.jpg" alt="ChatGPT JustFix step 1" /></td>
+    <td><img src="assets/screenshots/chatgpt-app-1.jpg" alt="ChatGPT JustFix step 1" /></td>
     <td><img src="assets/screenshots/chatgpt-app-2.jpg" alt="ChatGPT JustFix step 2" /></td>
   </tr>
   <tr>
