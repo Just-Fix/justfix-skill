@@ -168,6 +168,6 @@ Pull requests welcome. Please:
 
 ## About JustFix
 
-JustFix is a UK home-services platform connecting customers with vetted local tradespeople. Boiler service, electrical, plumbing, locksmith, glazing and more. Same-day availability in most UK cities.
+JustFix is redefining Home Repair through the combination of AI + Human Service. Its UK based home-services platform enables rapid booking of vetted tradespeople for common jobs around the home. Examples include: boiler repairs and service, electrical, plumbing, locksmith, glazing, handyman and more. Same-day availability in most UK cities.
 
 🌐 [justfix.app](https://justfix.app)
