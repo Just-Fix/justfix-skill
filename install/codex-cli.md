@@ -19,7 +19,7 @@ This wraps the streamable-HTTP MCP server in the `mcp-remote` proxy (Codex's MCP
 ```bash
 mkdir -p ~/.codex/skills
 cd ~/.codex/skills
-git clone https://github.com/squid-ea/justfix-skill.git justfix
+git clone https://github.com/Just-Fix/justfix-skill.git justfix
 ```
 
 Then add a reference in your `~/.codex/AGENTS.md` or project `AGENTS.md`:
