@@ -152,7 +152,7 @@ When JustFix expands the MCP server, the skill will follow:
 - Recurring service plans (e.g. annual boiler service auto-rebook)
 - Photo upload for diagnostic estimates
 
-Track progress in [GitHub Issues](https://github.com/squid-ea/justfix-skill/issues).
+Track progress in [GitHub Issues](https://github.com/Just-Fix/justfix-skill/issues).
 
 ## Contributing
 
