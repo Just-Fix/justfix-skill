@@ -6,13 +6,15 @@ Quote UK trades jobs from any AI agent. Get a price breakdown and a tappable boo
 [![Skill format: AgentSkills](https://img.shields.io/badge/Skill-AgentSkills-blueviolet)](https://docs.openclaw.ai)
 [![MCP](https://img.shields.io/badge/MCP-justfix-teal)](https://estimator-mcp.justfix.app/mcp)
 
+👉 **[How to install JustFix on your AI agent →](./INSTALL.md)** — Claude Desktop, Cursor, Claude Code, Codex CLI, Gemini CLI, OpenClaw, Hermes, or any MCP-aware client.
+
 ---
 
 ## See it in action
 
 ### On OpenClaw + Telegram
 
-Ask any OpenClaw (or other harness) agent for a quote in plain English. The skill maps the request to the right JustFix service code, calls the MCP, and replies with a clean quote card and a tappable booking URL.
+Ask Squid (or any OpenClaw agent) for a quote in plain English. The skill maps the request to the right JustFix service code, calls the MCP, and replies with a clean quote card and a tappable booking URL.
 
 ![JustFix quote in OpenClaw Telegram](assets/screenshots/openclaw-telegram-quote.jpg)
 
@@ -31,10 +33,13 @@ The same underlying MCP server powers JustFix's official ChatGPT app. The skill 
   </tr>
 </table>
 
-### In Claude Code, Cursor, Codex CLI or Gemini CLI
+### In Claude Code (and Cursor, Codex CLI, Gemini CLI)
 
-_install guide in [install/](install/) covers all four._
-<table><tr><td><img src="assets/screenshots/claude_cli.jpg" alt="Claude CLI" /></td></tr></table>
+The same skill loads natively in Claude Code. Ask in plain English, the skill resolves the service, calls the MCP, and returns the same quote card plus a tappable booking link.
+
+![JustFix skill running inside Claude Code](assets/screenshots/claude-code-cli.jpg)
+
+_One-pager install guide: **[INSTALL.md](./INSTALL.md)**. Detailed per-harness notes in [install/](install/)._
 
 ---
 
@@ -152,7 +157,7 @@ When JustFix expands the MCP server, the skill will follow:
 - Recurring service plans (e.g. annual boiler service auto-rebook)
 - Photo upload for diagnostic estimates
 
-Track progress in [GitHub Issues](https://github.com/Just-Fix/justfix-skill/issues).
+Track progress in [GitHub Issues](https://github.com/squid-ea/justfix-skill/issues).
 
 ## Contributing
 
@@ -168,6 +173,6 @@ Pull requests welcome. Please:
 
 ## About JustFix
 
-JustFix is redefining Home Repair through the combination of AI + Human Service. Its UK based home-services platform enables rapid booking of vetted tradespeople for common jobs around the home. Examples include: boiler repairs and service, electrical, plumbing, locksmith, glazing, handyman and more. Same-day availability in most UK cities.
+JustFix is a UK home-services platform connecting customers with vetted local tradespeople. Boiler service, electrical, plumbing, locksmith, glazing and more. Same-day availability in most UK cities.
 
 🌐 [justfix.app](https://justfix.app)
