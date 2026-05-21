@@ -1,0 +1,57 @@
+# Smithery configuration: https://smithery.ai/docs/config#smitheryyaml
+# JustFix Estimator is an externally hosted MCP server.
+# Smithery only needs to know how to find and describe it.
+
+name: justfix-estimator
+displayName: "JustFix Estimator – UK Trades Quotes"
+description: >
+  Quote UK trades jobs from any AI agent. Returns a price breakdown
+  (labour + call-out fee), service-code routing across 13 categories
+  (electrical, plumbing, locksmith, glazing, carpentry, handyperson,
+  heating, gas, roofing, drains, white goods, boiler service, other),
+  and a tappable booking URL that completes the booking on
+  my.justfix.app. UK only. No auth required. Three tools:
+  list_services, call_out_fee, service-estimate-card.
+
+icon: https://justfix.app/favicon.ico
+homepage: https://justfix.app
+repository: https://github.com/Just-Fix/justfix-skill
+license: MIT
+
+categories:
+  - home-services
+  - finance
+  - booking
+
+tags:
+  - uk
+  - trades
+  - plumbing
+  - electrical
+  - locksmith
+  - glazing
+  - carpentry
+  - handyman
+  - heating
+  - gas
+  - roofing
+  - drains
+  - white-goods
+  - boiler-service
+  - quotes
+  - estimates
+  - booking
+  - b2c
+
+# This server is already publicly hosted and conforms to the
+# Streamable HTTP MCP spec. No build / no runtime config required.
+remote:
+  type: streamable-http
+  url: https://estimator-mcp.justfix.app/mcp
+  authentication: none
+
+# No user-supplied config - the server is open and read-only for
+# the two info tools; the estimate tool only generates a URL.
+configSchema:
+  type: object
+  properties: {}
